@@ -15,7 +15,7 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "stylelint.enable": true,
-  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.colorTheme": "DuoTone Dark Sea",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.view.alwaysShowHeaderActions": true,
