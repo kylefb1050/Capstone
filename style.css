@@ -1,14 +1,14 @@
 
 #jumbotron {
   background-color: #f6f5f3;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Young Serif', serif;
   text-align: center;
   color: #3d3d3f;
 }
 
 #home-content {
   background-color: #f6f5f3;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Young Serif', serif;
   text-align: center;
   padding-bottom: 450px;
   color: #3d3d3f;
@@ -28,4 +28,15 @@ body {
 
 #models-button {
   padding-bottom: 10px;
+}
+
+#aboutus {
+  background-color: #f6f5f3;
+  font-family: 'Young Serif', serif;
+  text-align: center;
+}
+
+#parts1 {
+  text-align: center;
+  font-family: 'Young Serif', serif;
 }
