@@ -17,7 +17,7 @@ export default state => html`
   </section>
 
   <div id="home-content">
-    <p>Destinations are from A to B. Let's get you out of C.</p>
+    <p>Destinations are from A to B.</p>
     <h2>What's wrong with you car?</h2>
     <form id="form">
       <input type="search" id="query" name="q" placeholder="Search..." />
