@@ -1,16 +1,16 @@
 
 #jumbotron {
   background-color: #f6f5f3;
-  font-family: 'Young Serif', serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   color: #3d3d3f;
 }
 
 #home-content {
   background-color: #f6f5f3;
-  font-family: 'Young Serif', serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
-  padding-bottom: 450px;
+  padding-bottom: 20px;
   color: #3d3d3f;
 }
 
@@ -32,11 +32,46 @@ body {
 
 #aboutus {
   background-color: #f6f5f3;
-  font-family: 'Young Serif', serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 
 #parts1 {
   text-align: center;
-  font-family: 'Young Serif', serif;
+  font-family: 'Lato', sans-serif;
 }
+
+.overlay1 {
+/* position:relative;
+top: 50%;
+left: 50%; */
+display: flex;
+justify-content: center;
+height: 750px;
+width: 80%;
+}
+
+.overlay {
+  background: #d4d4dc;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.overlayText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+
