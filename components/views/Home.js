@@ -20,7 +20,6 @@ export default state => html`
         </section>
 
         <div id="home-content">
-          <p>Destinations are from A to B.</p>
           <h2>What's wrong with you car?</h2>
           <form id="form">
             <input type="search" id="query" name="q" placeholder="Search..." />
@@ -29,17 +28,5 @@ export default state => html`
         </div>
       </div>
     </div>
-  </div>
-
-  <div id="about-button">
-    <a href="About" data-navigo>About us</a>
-  </div>
-
-  <div id="list-button">
-    <a href="List" data-navigo>Buy Parts</a>
-  </div>
-
-  <div id="models-button">
-    <a href="Models" data-navigo>Models</a>
   </div>
 `;
