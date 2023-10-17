@@ -69,24 +69,26 @@ nav {
 }
 
 body {
-  background-color: #f6f5f3;
+  background-color: #d4d4dc;
   font-family: 'Roboto', sans-serif;
 }
 
 .overlay {
   background: #d4d4dc;
   height: 100%;
-  width: 80%;
+  width: 100%;
   opacity: 0.7;
-  border-radius: 25px;
-  margin: 10px 0;
+  border-radius: 15px;
 }
 
 .overlay1 {
 display: flex;
 justify-content: center;
-height: 750px;
+height: 700px;
 width: 100%;
+background-image: url("https://images.unsplash.com/photo-1628999740821-cbec21f7f592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3500&q=80");
+background-size: 100%;
+border-radius: 15px;
 }
 
 .overlayText {
@@ -96,6 +98,14 @@ width: 100%;
   transform: translate(-50%, -50%);
   margin: 0;
   z-index: -1;
+}
+
+#h2-1 {
+  margin-top: 50px;
+}
+
+#introImage {
+  background-size: cover;
 }
 
 #aboutus {
