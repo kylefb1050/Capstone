@@ -2,7 +2,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import Cars from "./model/Cars.js";
+import Cars from "./models/Cars.js";
 
 // Initialize the Express application
 const app = express();

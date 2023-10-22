@@ -1,12 +1,12 @@
 import { Router } from "express";
-import cars from "../models/Cars.js";
+import Cars from "../models/Cars.js";
 
 const router = Router();
 
 //create a car route
 router.post("/", async (request, response) => {
   try {
-    const newCars = new cars(request.body);
+    const newCars = new Cars(request.body);
 
     const data = await newCars.save();
 
@@ -28,7 +28,7 @@ router.get("/", async (request, response) => {
     // Store the query params into a JavaScript Object
     const query = request.query; // Defaults to an empty object {}
 
-    const data = await cars.find(query);
+    const data = await Cars.find(query);
 
     response.json(data);
   } catch (error) {
@@ -42,7 +42,7 @@ router.get("/", async (request, response) => {
 // Get a single car by ID
 router.get("/:id", async (request, response) => {
   try {
-    const data = await cars.findById(request.params.id);
+    const data = await Cars.findById(request.params.id);
 
     response.json(data);
   } catch (error) {
