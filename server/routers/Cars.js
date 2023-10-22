@@ -1,14 +1,14 @@
 import { Router } from "express";
-import cars from "../models/cars.js";
+import cars from "../models/Cars.js";
 
 const router = Router();
 
 //create a car route
 router.post("/", async (request, response) => {
   try {
-    const newPizza = new cars(request.body);
+    const newCars = new cars(request.body);
 
-    const data = await newPizza.save();
+    const data = await newCars.save();
 
     response.json(data);
   } catch (error) {

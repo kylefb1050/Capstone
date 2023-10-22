@@ -2,7 +2,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import cars from "./models/cars.js";
+import Cars from "./model/Cars.js";
 
 // Initialize the Express application
 const app = express();
@@ -106,7 +106,7 @@ app.get("/weather/:city", (request, response) => {
   );
 });
 
-app.use("/cars", cars);
+app.use("/Cars", Cars);
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
