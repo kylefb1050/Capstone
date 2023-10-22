@@ -6,11 +6,11 @@ export default state => html`
       <div class="overlayText">
         <section id="jumbotron">
           <h1>Welcome to IntelliAuto!</h1>
-          <h3>
+          <!-- <h3>
             The condition in ${state.weather.city} is
             ${state.weather.description}. Temperature is ${state.weather.temp}F,
             and it feels like ${state.weather.feelsLike}F.
-          </h3>
+          </h3> -->
         </section>
 
         <div id="home-content">
