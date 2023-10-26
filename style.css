@@ -5,71 +5,12 @@
   color: #3d3d3f;
 }
 
-#home-content {
-  background-color: #d4d4dc;
-  text-align: center;
-  padding-bottom: 20px;
-  color: #3d3d3f;
-  margin-top: -20px;
-}
-
-body {
-  background-color: #f6f5f3;
-  font-family: 'Young Serif', serif;
-}
-
-#about-button {
-  padding-bottom: 10px;
-}
-
-#list-button {
-  padding-bottom: 10px;
-}
-
-#models-button {
-  padding-bottom: 10px;
-}
-
-#aboutus {
-  background-color: #d4d4dc;
-  text-align: center;
-}
-
-#parts1 {
-  text-align: center;
-}
-
-.overlay1 {
-display: flex;
-justify-content: center;
-height: 750px;
-width: 100%;
-}
-
-.overlay {
-  background: #d4d4dc;
-  height: 100%;
-  width: 80%;
-  opacity: 0.7;
-  border-radius: 25px;
-  margin: 10px 0;
-}
-
-.overlayText {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  z-index: -1;
-}
-
 nav {
   display: flex;
   align-items: center;
   flex-direction: column;
   text-decoration: none;
-  
+
 }
 
 @media (max-width: 549px) {
@@ -119,3 +60,65 @@ nav {
   }
 }
 
+#home-content {
+  background-color: #d4d4dc;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #3d3d3f;
+  margin-top: -20px;
+}
+
+body {
+  background-color: #d4d4dc;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.overlay {
+  background: #d4d4dc;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  border-radius: 15px;
+}
+
+.overlay1 {
+display: flex;
+justify-content: center;
+height: 700px;
+width: 100%;
+background-image: url("https://images.unsplash.com/photo-1628999740821-cbec21f7f592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3500&q=80");
+background-size: 100%;
+border-radius: 15px;
+}
+
+.overlayText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: -1;
+}
+
+#h2-1 {
+  margin-top: 50px;
+}
+
+#introImage {
+  background-size: cover;
+}
+
+#aboutus {
+  background-color: #d4d4dc;
+  text-align: center;
+}
+
+#parts1 {
+  text-align: center;
+}
+
+/* Start of Model Page */
+
+#vehicle1 {
+  text-align: center;
+}
