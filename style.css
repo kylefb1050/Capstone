@@ -122,3 +122,386 @@ border-radius: 15px;
 #vehicle1 {
   text-align: center;
 }
+
+/* Oil Button */
+.brakes {
+    background-color: transparent
+    border: 1px solid #266DB6;
+    box-sizing: border-box;
+    color: #00132C;
+    font-family: "Avenir Next LT W01 Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .brakes :hover,
+  .brakes :active {
+    outline: 0;
+  }
+
+  .brakes:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .brakes:before {
+    background-color: #D5EDF6;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -7px;
+    top: -9px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .brakes:hover:before {
+    background-color: #6DCFF6;
+  }
+
+  @media (min-width: 768px) {
+    .button-51 {
+      padding: 16px 32px;
+    }
+
+  .brakes {
+    justify-content:
+  }
+  }
+
+#pm{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+  /* Oil Button */
+.Oil {
+  background-color: transparent
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Oil :hover,
+.Oil :active {
+  outline: 0;
+}
+
+.Oil:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Oil:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.Oil:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+
+.Oil {
+  justify-content:
+}
+}
+
+/* Brake Button */
+.brakes {
+    background-color: transparent
+    border: 1px solid #266DB6;
+    box-sizing: border-box;
+    color: #00132C;
+    font-family: "Avenir Next LT W01 Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .brakes :hover,
+  .brakes :active {
+    outline: 0;
+  }
+
+  .brakes:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .brakes:before {
+    background-color: #D5EDF6;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -7px;
+    top: -9px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .brakes:hover:before {
+    background-color: #6DCFF6;
+  }
+
+  @media (min-width: 768px) {
+    .button-51 {
+      padding: 16px 32px;
+    }
+
+  .brakes {
+    justify-content:
+  }
+  }
+
+  /* Brake Button */
+.brakes {
+    background-color: transparent
+    border: 1px solid #266DB6;
+    box-sizing: border-box;
+    color: #00132C;
+    font-family: "Avenir Next LT W01 Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .brakes :hover,
+  .brakes :active {
+    outline: 0;
+  }
+
+  .brakes:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .brakes:before {
+    background-color: #D5EDF6;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -7px;
+    top: -9px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .brakes:hover:before {
+    background-color: #6DCFF6;
+  }
+
+  @media (min-width: 768px) {
+    .button-51 {
+      padding: 16px 32px;
+    }
+
+  .Oil {
+    justify-content:
+  }
+  }
+
+  /* Coolant Button */
+.Coolant {
+  background-color: transparent
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Coolant :hover,
+.Coolant :active {
+  outline: 0;
+}
+
+.Coolant:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Coolant:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.Coolant:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+
+.Coolant {
+  justify-content:
+}
+}
+
+/* Batteries Button */
+.Battery {
+  background-color: transparent
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Battery :hover,
+.Battery :active {
+  outline: 0;
+}
+
+.Battery:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Battery:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.Battery:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+
+.Battery {
+  justify-content:
+}
+}
+
+/* Spark Plug Button */
+.Spark {
+  background-color: transparent
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Spark :hover,
+.Spark :active {
+  outline: 0;
+}
+
+.Spark:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Spark:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.Spark:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+
+.Spark {
+  justify-content:
+}
+}

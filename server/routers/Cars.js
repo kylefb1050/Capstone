@@ -1,5 +1,5 @@
 import { Router } from "express";
-import Cars from "../models/Cars.js";
+import Cars from "../models/cars.js";
 
 const router = Router();
 
@@ -54,3 +54,27 @@ router.get("/:id", async (request, response) => {
 });
 
 export default router;
+
+// const axios = require("axios");
+
+// router.get("/List", async (request, response) => {
+//   try {
+//     const response = await axios.request(options);
+//     console.log(response.data);
+//   } catch (error) {
+//     console.error(error);
+//   }
+// });
+
+// const options = {
+//   method: "GET",
+//   url: "https://car-data.p.rapidapi.com/cars",
+//   params: {
+//     limit: "10",
+//     page: "0"
+//   },
+//   headers: {
+//     "X-RapidAPI-Key": "2ea45faad6msh24d23a943be61e1p125b8ajsnaed2302fea19",
+//     "X-RapidAPI-Host": "car-data.p.rapidapi.com"
+//   }
+// };
