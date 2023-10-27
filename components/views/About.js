@@ -4,8 +4,7 @@ export default state => html`
   <section id="aboutus">
     <h1>About Us</h1>
     <h3 id="aboutme1">
-      Growing up, I always wanted to know what the special magic was that made
-      these machines move.
+      Remember Hot Wheels? Those toys are the reason why I love cars today.
     </h3>
     <h4 id="aboutme2">
       I created this software to expand the knowledge and the experiences I
