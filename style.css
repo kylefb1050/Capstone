@@ -10,7 +10,6 @@ nav {
   align-items: center;
   flex-direction: column;
   text-decoration: none;
-
 }
 
 @media (max-width: 549px) {
@@ -117,391 +116,278 @@ border-radius: 15px;
   text-align: center;
 }
 
-/* Start of Model Page */
-
 #vehicle1 {
   text-align: center;
 }
-
-/* Oil Button */
-.brakes {
-    background-color: transparent
-    border: 1px solid #266DB6;
-    box-sizing: border-box;
-    color: #00132C;
-    font-family: "Avenir Next LT W01 Bold",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    padding: 16px 23px;
-    position: relative;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-
-  .brakes :hover,
-  .brakes :active {
-    outline: 0;
-  }
-
-  .brakes:hover {
-    background-color: transparent;
-    cursor: pointer;
-  }
-
-  .brakes:before {
-    background-color: #D5EDF6;
-    content: "";
-    height: calc(100% + 3px);
-    position: absolute;
-    right: -7px;
-    top: -9px;
-    transition: background-color 300ms ease-in;
-    width: 100%;
-    z-index: -1;
-  }
-
-  .brakes:hover:before {
-    background-color: #6DCFF6;
-  }
-
-  @media (min-width: 768px) {
-    .button-51 {
-      padding: 16px 32px;
-    }
-
-  .brakes {
-    justify-content:
-  }
-  }
 
 #pm{
   padding-top: 30px;
   padding-bottom: 10px;
 }
 
-  /* Oil Button */
-.Oil {
-  background-color: transparent
-  border: 1px solid #266DB6;
+/* List Page */
+
+/* Brakes Button  */
+.Brakes {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
   box-sizing: border-box;
-  color: #00132C;
-  font-family: "Avenir Next LT W01 Bold",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  padding: 16px 23px;
-  position: relative;
-  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
   user-select: none;
   -webkit-user-select: none;
-  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
-.Oil :hover,
-.Oil :active {
+.Brakes:focus {
+  text-decoration: none;
+}
+
+.Brakes:hover {
+  text-decoration: none;
+}
+
+.Brakes:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
   outline: 0;
 }
 
-.Oil:hover {
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.Oil:before {
-  background-color: #D5EDF6;
-  content: "";
-  height: calc(100% + 3px);
-  position: absolute;
-  right: -7px;
-  top: -9px;
-  transition: background-color 300ms ease-in;
-  width: 100%;
-  z-index: -1;
-}
-
-.Oil:hover:before {
-  background-color: #6DCFF6;
+.Brakes:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
 }
 
 @media (min-width: 768px) {
-  .button-51 {
-    padding: 16px 32px;
+  .Brakes {
+    padding: 12px 50px;
   }
-
-.Oil {
-  justify-content:
-}
 }
 
-/* Brake Button */
-.brakes {
-    background-color: transparent
-    border: 1px solid #266DB6;
-    box-sizing: border-box;
-    color: #00132C;
-    font-family: "Avenir Next LT W01 Bold",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    padding: 16px 23px;
-    position: relative;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-
-  .brakes :hover,
-  .brakes :active {
-    outline: 0;
-  }
-
-  .brakes:hover {
-    background-color: transparent;
-    cursor: pointer;
-  }
-
-  .brakes:before {
-    background-color: #D5EDF6;
-    content: "";
-    height: calc(100% + 3px);
-    position: absolute;
-    right: -7px;
-    top: -9px;
-    transition: background-color 300ms ease-in;
-    width: 100%;
-    z-index: -1;
-  }
-
-  .brakes:hover:before {
-    background-color: #6DCFF6;
-  }
-
-  @media (min-width: 768px) {
-    .button-51 {
-      padding: 16px 32px;
-    }
-
-  .brakes {
-    justify-content:
-  }
-  }
-
-  /* Brake Button */
-.brakes {
-    background-color: transparent
-    border: 1px solid #266DB6;
-    box-sizing: border-box;
-    color: #00132C;
-    font-family: "Avenir Next LT W01 Bold",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    padding: 16px 23px;
-    position: relative;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-
-  .brakes :hover,
-  .brakes :active {
-    outline: 0;
-  }
-
-  .brakes:hover {
-    background-color: transparent;
-    cursor: pointer;
-  }
-
-  .brakes:before {
-    background-color: #D5EDF6;
-    content: "";
-    height: calc(100% + 3px);
-    position: absolute;
-    right: -7px;
-    top: -9px;
-    transition: background-color 300ms ease-in;
-    width: 100%;
-    z-index: -1;
-  }
-
-  .brakes:hover:before {
-    background-color: #6DCFF6;
-  }
-
-  @media (min-width: 768px) {
-    .button-51 {
-      padding: 16px 32px;
-    }
-
-  .Oil {
-    justify-content:
-  }
-  }
-
-  /* Coolant Button */
-.Coolant {
-  background-color: transparent
-  border: 1px solid #266DB6;
+/* Oil Button  */
+.oil {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
   box-sizing: border-box;
-  color: #00132C;
-  font-family: "Avenir Next LT W01 Bold",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  padding: 16px 23px;
-  position: relative;
-  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
   user-select: none;
   -webkit-user-select: none;
-  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
-.Coolant :hover,
-.Coolant :active {
+.oil:focus {
+  text-decoration: none;
+}
+
+.oil:hover {
+  text-decoration: none;
+}
+
+.oil:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
   outline: 0;
 }
 
-.Coolant:hover {
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.Coolant:before {
-  background-color: #D5EDF6;
-  content: "";
-  height: calc(100% + 3px);
-  position: absolute;
-  right: -7px;
-  top: -9px;
-  transition: background-color 300ms ease-in;
-  width: 100%;
-  z-index: -1;
-}
-
-.Coolant:hover:before {
-  background-color: #6DCFF6;
+.oil:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
 }
 
 @media (min-width: 768px) {
-  .button-51 {
-    padding: 16px 32px;
+  .oil {
+    padding: 12px 50px;
   }
+}
 
-.Coolant {
-  justify-content:
+/* Coolant Button  */
+.coolant {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
 }
+
+.coolant:focus {
+  text-decoration: none;
 }
+
+.coolant:hover {
+  text-decoration: none;
+}
+
+.coolant:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.coolant:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .coolant {
+    padding: 12px 50px;
+  }
+}
+
 
 /* Batteries Button */
-.Battery {
-  background-color: transparent
-  border: 1px solid #266DB6;
+.battery {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
   box-sizing: border-box;
-  color: #00132C;
-  font-family: "Avenir Next LT W01 Bold",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  padding: 16px 23px;
-  position: relative;
-  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
   user-select: none;
   -webkit-user-select: none;
-  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
-.Battery :hover,
-.Battery :active {
+.battery:focus {
+  text-decoration: none;
+}
+
+.battery:hover {
+  text-decoration: none;
+}
+
+.battery:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
   outline: 0;
 }
 
-.Battery:hover {
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.Battery:before {
-  background-color: #D5EDF6;
-  content: "";
-  height: calc(100% + 3px);
-  position: absolute;
-  right: -7px;
-  top: -9px;
-  transition: background-color 300ms ease-in;
-  width: 100%;
-  z-index: -1;
-}
-
-.Battery:hover:before {
-  background-color: #6DCFF6;
+.battery:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
 }
 
 @media (min-width: 768px) {
-  .button-51 {
-    padding: 16px 32px;
+  .battery {
+    padding: 12px 50px;
   }
-
-.Battery {
-  justify-content:
-}
 }
 
 /* Spark Plug Button */
-.Spark {
-  background-color: transparent
-  border: 1px solid #266DB6;
+.spark {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
   box-sizing: border-box;
-  color: #00132C;
-  font-family: "Avenir Next LT W01 Bold",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  padding: 16px 23px;
-  position: relative;
-  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
   user-select: none;
   -webkit-user-select: none;
-  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
-.Spark :hover,
-.Spark :active {
+.spark:focus {
+  text-decoration: none;
+}
+
+.spark:hover {
+  text-decoration: none;
+}
+
+.spark:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
   outline: 0;
 }
 
-.Spark:hover {
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.Spark:before {
-  background-color: #D5EDF6;
-  content: "";
-  height: calc(100% + 3px);
-  position: absolute;
-  right: -7px;
-  top: -9px;
-  transition: background-color 300ms ease-in;
-  width: 100%;
-  z-index: -1;
-}
-
-.Spark:hover:before {
-  background-color: #6DCFF6;
+.spark:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
 }
 
 @media (min-width: 768px) {
-  .button-51 {
-    padding: 16px 32px;
+  .spark {
+    padding: 12px 50px;
   }
-
-.Spark {
-  justify-content:
 }
+
+#select {
+  text-align: center;
 }

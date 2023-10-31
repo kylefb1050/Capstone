@@ -11,7 +11,7 @@ export default state => html`
       learned beyond me, and help everyone else.
     </h4>
     <p>
-      Contact me at kyle.bandong01@gmail.com if you have any questions.
+      Contact me at kyle.bandong01@gmail.com for anything!
     </p>
   </section>
 `;
