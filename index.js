@@ -3,6 +3,7 @@ import * as store from "./store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
 import axios from "axios";
+import { model } from "mongoose";
 
 const router = new Navigo("/");
 
@@ -22,6 +23,31 @@ function afterRender(state) {
   document.querySelector(".fa-bars").addEventListener("click", () => {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
+  if (state.view === "Model") {
+    document.querySelector("form").addEventListener("submit", event => {
+      event.preventDefault();
+      const carRender = document.querySelector("#carRoute");
+
+      const modelList = event.target.elements;
+      console.log("", modelList);
+      carRender.innerHTML = `<div class="year">${modelList.year.value}</div><div>${modelList.make.value}</div>`;
+      const requestData = {
+        year: modelList.year.value,
+        make: modelList.make.value,
+        model: modelList.model.value
+      };
+      console.log("request Body", requestData);
+
+      axios
+        .get(`${process.env.RENDER}/Cars`, requestData)
+        .then(response => {
+          store.Model.Models.push(response.data);
+        })
+        .catch(error => {
+          console.log("Error", error);
+        });
+    });
+  }
 }
 
 router.hooks({
@@ -71,11 +97,11 @@ router.hooks({
         console.log(store.Pizza);
         // New Axios get request utilizing already made environment variable
         axios
-          .get(`${process.env.PIZZA_PLACE_API_URL}/pizza`)
+          .get(`${process.env.RENDER}/Cars`)
           .then(response => {
             // We need to store the response to the state, in the next step but in the meantime let's see what it looks like so that we know what to store from the response.
             console.log("response", response);
-            store.Pizza.pizzas = response.data;
+            store.cars.Cars = response.data;
             done();
           })
           .catch(error => {

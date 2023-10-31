@@ -1,4 +1,5 @@
 export default {
   header: "Parts Model",
-  view: "Model"
+  view: "Model",
+  Models: []
 };
