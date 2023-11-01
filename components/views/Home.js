@@ -1,4 +1,5 @@
 import html from "html-literal";
+import carIssue from "../../utils/script2";
 
 export default state => html`
   <div class="overlay1">
@@ -15,10 +16,14 @@ export default state => html`
 
         <div id="home-content">
           <h2 id="h2-1">What's wrong with you car?</h2>
-          <form id="form">
-            <input type="search" id="query" name="q" placeholder="Search..." />
-            <button>Search</button>
+
+          <form>
+            <button onclick="carIssue()">Brakes</button>
           </form>
+
+          <div id="issueRoute"></div>
+
+          </div>
         </div>
       </div>
     </div>
